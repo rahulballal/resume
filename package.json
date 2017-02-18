@@ -1,0 +1,29 @@
+{
+  "name": "rahulballal-resume",
+  "version": "1.0.0",
+  "description": "Rahul Ballal Resume Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "hackmyresume BUILD ./resume.json -all",
+    "analyze": "hackmyresume PEEK ./resume.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulballal/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "personal",
+    "resumejs"
+  ],
+  "author": "Rahul Ballal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulballal/resume/issues"
+  },
+  "homepage": "https://github.com/rahulballal/resume#readme",
+  "devDependencies": {
+    "hackmyresume": "1.8.0",
+    "wkhtmltopdf": "0.3.3"
+  }
+}
